@@ -1,0 +1,43 @@
+.container{
+    background-color: #222;
+    width: 100vw;
+    height: calc(80vh - 100px);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+
+}
+
+.itemContainer{
+    flex: 1;
+    /* background-color: antiquewhite; */
+    position: relative;
+    display: flex;  
+
+    
+}
+
+.itemContainer:last-child{
+    flex: 2;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.subItemContainer{
+    margin: 0px 20px;
+    flex: 1
+
+}
+
+.subTitle{
+    font-size: 18px;
+    color: #b7903c  ;
+}
+.desc{
+   margin-top: 10px;
+   text-transform: capitalize;
+   color: lightgrey;
+}
+

@@ -1,0 +1,112 @@
+.container{
+    /* background-color: aqua; */
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+}
+
+.imgContainer{
+    height: 70%;
+    width: 70%;
+    position: relative;
+}
+
+
+.price{
+    font-size: 34px;
+    color: #d1411e;    
+
+}
+.leftContainer{
+
+flex: 3;
+/* border: 2px solid gray; */
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+height: 100%;
+align-items: center;
+/* margin-left: 20px ; */
+}
+.rightContainer{
+    /* background-color: aqua; */
+flex: 3;
+margin: 20px 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 70%;
+/* align-items: center; */
+}
+.sizesContainer{
+    
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.sizeContainer{
+    height:30px ;
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+}
+.sizeContainer:nth-child(2){
+    height:40px ;
+    width: 40px;
+    /* position: relative; */
+}
+.sizeContainer:nth-child(3){
+    height:50px ;
+    width: 50px;
+}
+
+.number{
+    position: absolute;
+    font-size: 12px;
+    top: -15px;
+    right: -25px;
+    background-color: teal;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.additionalsContainer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.additionalContainer{
+    font-size: 17px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkBox{
+    height: 20px;
+    width: 20px;
+}
+
+.addBox{
+    height: 30px;
+    width: 50px;
+}
+.addButton{
+    background-color: #d1411e;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.addContainer{
+    margin-top: 30px;
+}
